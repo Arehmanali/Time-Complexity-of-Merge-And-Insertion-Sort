@@ -15,7 +15,7 @@ o void MergeSort(int array[], int start, int end)
 o void Merge(int array[], int p, int q, int r)
 • Also calculate the time, that InsertionSort function takes. Print the answer in seconds.
 • Save the sorted array in SortedMergeSort.csv. One integer at one line.
-# Task 3:
+# Task 4:
 Use the value of n to create the hybrid Merge sort in which instead of dividing arrays to single
 element array, divide the array to the value of n, so that small arrays can be sorted using insertion
 sort.
@@ -23,3 +23,5 @@ sort.
 should have the following prototype.
 o void HybridMergeSort(int array[], int start, int end)
 • Save the sorted array in SortedHybridSort.csv. One integer at one line.
+# Task 5:
+Calculate the value of no, for which running time of merge sort is better than insertion sort. 
