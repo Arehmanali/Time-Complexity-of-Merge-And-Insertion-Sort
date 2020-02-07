@@ -105,7 +105,7 @@ void Merge(int array[], int startIndex, int midIndex, int endIndex)
     }
 }
 
-/* random array function for generating a array of random numbers */
+/* random array function for generating a array of random numbers of size of array */
 void RandomArray(int array[], int size)
 {
     for (int i = 0; i < size; ++i)
