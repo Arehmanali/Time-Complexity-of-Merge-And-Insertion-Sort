@@ -54,7 +54,7 @@ void MergeSort(int array[], int startIndex, int endIndex)
 void Merge(int array[], int startIndex, int midIndex, int endIndex)
 {
     int i, j, k;
-    int n1 = midIndex - startIndex + 1;
+    int n1 = midIndex - startIndex + 1;                     // store index of first half subarray
     int n2 = endIndex - midIndex;
 
     /* create temp arrays */
