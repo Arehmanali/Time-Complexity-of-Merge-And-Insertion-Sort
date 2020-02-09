@@ -25,12 +25,12 @@ int main()
         cout << duration << " seconds" << endl;
 
         ofstream output;
-        output.open("SortedMergeSort.csv");					// save the sorted array in csv file
+        output.open("SortedMergeSort.csv");					// opem the file for writting sorted array in csv file 
         if (output.is_open())
         {
             for (int i = 0; i < sizeOfArray; ++i)
             {
-                output << array[i] << endl;
+                output << array[i] << endl;                 // save the sorted array in csv file
             }
         }
         output.close();
