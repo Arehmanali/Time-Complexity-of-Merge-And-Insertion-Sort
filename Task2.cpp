@@ -33,7 +33,7 @@ int main()
                 output << array[i] << endl;                 // save the sorted array in csv file
             }
         }
-        output.close();
+        output.close();                     close the opened file
     
     return 0;
 }
