@@ -26,7 +26,7 @@ int main()
 
         ofstream output;
         output.open("SortedMergeSort.csv");					// opem the file for writting sorted array in csv file 
-        if (output.is_open())
+        if (output.is_open())                               // checking the file is opened for writting
         {
             for (int i = 0; i < sizeOfArray; ++i)
             {
