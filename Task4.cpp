@@ -34,7 +34,7 @@ int main()
 			output << array[i] << endl;
 		}
 	}
-	output.close();
+	output.close();							// close the opened input file 
 	return 0;
 }
 
