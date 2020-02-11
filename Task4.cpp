@@ -27,14 +27,14 @@ int main()
 
 	ofstream output;
 	output.open("SortedHybridSort.csv");               		 // save the sorted array in csv file 
-	if (output.is_open())
+	if (output.is_open())						// check wether the file is opened then continue
 	{
 		for (int i = 0; i < sizeOfArray; ++i)
 		{
 			output << array[i] << endl;
 		}
 	}
-	output.close();							// close the opened input file 
+	output.close();							// close the opened file 
 	return 0;
 }
 
